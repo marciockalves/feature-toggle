@@ -2,7 +2,7 @@ import { Injectable } from "@nestjs/common";
 import { IRepositoryMethods } from "src/core/infraestructure/IRepositoryMethods.interface";
 
 @Injectable()
-export class MongoDbProviderRepository implements IRepositoryMethods{
+export class UserToggleProviderRepository implements IRepositoryMethods{
 
      async create(data: object, collection: string): Promise<string> {
 
